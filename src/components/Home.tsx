@@ -7,7 +7,6 @@ import Hero from "./Hero";
 import HowItWorks from "./HowItWorks";
 import ExchangeRates from "./Rates";
 import SupportedAssets from "./SupportedCurrency";
-import Testimonials from "./Testimonials";
 import StickyWhatsappIcon from "./WhatsappIcon";
 
 function Home() {
@@ -18,7 +17,6 @@ function Home() {
       <SupportedAssets />
       <Features />
       <ExchangeRates />
-      <Testimonials />
       <AboutUs />
       <FAQ />
       <Contact />

@@ -1,10 +1,10 @@
 const Hero = () => {
   return (
-    <section className="bg-purple-50 min-h-[450px] py-50 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col-reverse  md:flex-col- lg:flex-row items-center justify-around gap-6">
+    <section className="bg-purple-50 min-h-[450px] py-50 ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
         {/* Text Section */}
-        <div className="">
-          <h1 className="text-3xl lg:text-left text-left font-extrabold text-gray-900 leading-tight">
+        <div className="w-full lg:w-1/2 text-center lg:text-left">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
             Fast & Secure <span className="text-purple-700">Crypto</span> &{" "}
             <span className="text-purple-700">Giftcard</span> Exchange
           </h1>
@@ -12,7 +12,7 @@ const Hero = () => {
             Exchange your cryptocurrencies and giftcards with the best rates in
             minutes — anytime, anywhere.
           </p>
-          <div className="mt-6 flex justify-center md:justify-start gap-4">
+          <div className="mt-6 flex justify-center lg:justify-start gap-4">
             <a
               href="#get-started"
               className="bg-purple-700 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-purple-800 transition"
@@ -28,12 +28,12 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Image or Illustration Section */}
-        <div className="lg:pb-0 pb-4">
+        {/* Image Section */}
+        <div className="w-full lg:w-1/2">
           <img
             src="/hero.svg"
             alt="FX Exchange Hero"
-            className="w-full max-w-md mx-auto"
+            className="w-full h-auto max-w-[600px] mx-auto"
           />
         </div>
       </div>
