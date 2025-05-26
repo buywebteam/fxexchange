@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6 text-customPurple">
-          Why Choose FX Exchange
+          Who we are
         </h2>
         <p className="text-gray-600 mb-12">
           FX Exchange is your trusted partner for secure, fast, and reliable
