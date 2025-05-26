@@ -1,8 +1,13 @@
+import AboutUs from "./AboutUs";
+import Contact from "./Contact";
+import FAQ from "./FAQ";
 import Features from "./Features";
+import Footer from "./Footer";
 import Hero from "./Hero";
 import HowItWorks from "./HowItWorks";
 import ExchangeRates from "./Rates";
 import SupportedAssets from "./SupportedCurrency";
+import Testimonials from "./Testimonials";
 import StickyWhatsappIcon from "./WhatsappIcon";
 
 function Home() {
@@ -13,6 +18,11 @@ function Home() {
       <SupportedAssets />
       <Features />
       <ExchangeRates />
+      <Testimonials />
+      <AboutUs />
+      <FAQ />
+      <Contact />
+      <Footer />
       <StickyWhatsappIcon />
     </div>
   );

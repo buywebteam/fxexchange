@@ -1,10 +1,10 @@
 const Hero = () => {
   return (
-    <section className="bg-purple-50 min-h-[450px] py-[200px] px-4 sm:px-6 lg:px-8">
+    <section className="bg-purple-50 min-h-[450px] py-50 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto px-4 flex flex-col-reverse  md:flex-col- lg:flex-row items-center justify-around gap-6">
         {/* Text Section */}
         <div className="">
-          <h1 className="text-4xl sm:text-5xl lg:text-left text-left font-extrabold text-gray-900 leading-tight">
+          <h1 className="text-3xl lg:text-left text-left font-extrabold text-gray-900 leading-tight">
             Fast & Secure <span className="text-purple-700">Crypto</span> &{" "}
             <span className="text-purple-700">Giftcard</span> Exchange
           </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
 
         {/* Image or Illustration Section */}
-        <div className="lg:pb-0 pb-6">
+        <div className="lg:pb-0 pb-4">
           <img
             src="/hero.svg"
             alt="FX Exchange Hero"
