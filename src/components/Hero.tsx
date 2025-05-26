@@ -14,7 +14,9 @@ const Hero = () => {
           </p>
           <div className="mt-6 flex justify-center lg:justify-start gap-4">
             <a
-              href="#get-started"
+              href="https://wa.me/2348123456789"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-purple-700 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-purple-800 transition"
             >
               Get Started

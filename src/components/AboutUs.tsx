@@ -28,7 +28,10 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16 px-6 md:px-20 text-gray-800">
+    <section
+      id="about-us"
+      className="py-16 px-6 md:px-20 text-gray-800 scroll-mt-24"
+    >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6 text-customPurple">
           Why Choose FX Exchange
